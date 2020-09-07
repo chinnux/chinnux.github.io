@@ -6,7 +6,7 @@
   <link href="http://shinon.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://shinon.gitee.io/"/>
-  <updated>2020-09-07T07:49:01.488Z</updated>
+  <updated>2020-09-07T08:28:29.535Z</updated>
   <id>http://shinon.gitee.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-theme-matery</title>
+    <link href="http://shinon.gitee.io/2020/09/07/hexo-theme-matery/"/>
+    <id>http://shinon.gitee.io/2020/09/07/hexo-theme-matery/</id>
+    <published>2020-09-07T08:28:29.000Z</published>
+    <updated>2020-09-07T08:28:29.535Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-theme-matery&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#hexo-theme-matery&quot;&gt;&lt;/a&gt; hexo-theme-matery&lt;/h1&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://shinon.gitee.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://shinon.gitee.io/tags/Hexo/"/>
+    
+    <category term="主题" scheme="http://shinon.gitee.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="matery" scheme="http://shinon.gitee.io/tags/matery/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
