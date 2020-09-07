@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Schrödinger&#39;s Box</title>
+  
+  <subtitle>精于心 简于形</subtitle>
+  <link href="http://shinon.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="http://shinon.gitee.io/"/>
+  <updated>2020-09-07T07:49:01.488Z</updated>
+  <id>http://shinon.gitee.io/</id>
+  
+  <author>
+    <name>shinzon</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://shinon.gitee.io/2020/09/06/test/"/>
+    <id>http://shinon.gitee.io/2020/09/06/test/</id>
+    <published>2020-09-06T07:28:57.000Z</published>
+    <updated>2020-09-07T07:49:01.488Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;平时在写项目的时候经常要写一些 README 等等的说明性文件，&lt;a href=&quot;http://xn--4gq3wphx99e8xada057a2r3bo6vek4a7vc.md&quot;&gt;但是这样的文件一般都是.md&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://shinon.gitee.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://shinon.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://shinon.gitee.io/2020/09/06/hello-world/"/>
+    <id>http://shinon.gitee.io/2020/09/06/hello-world/</id>
+    <published>2020-09-06T00:03:18.981Z</published>
+    <updated>2020-09-06T00:03:18.981Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
