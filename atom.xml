@@ -6,7 +6,7 @@
   <link href="http://shinon.gitee.io/atom.xml" rel="self"/>
   
   <link href="http://shinon.gitee.io/"/>
-  <updated>2020-09-07T08:28:29.535Z</updated>
+  <updated>2020-09-07T09:14:25.000Z</updated>
   <id>http://shinon.gitee.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>hexo-theme-matery</title>
     <link href="http://shinon.gitee.io/2020/09/07/hexo-theme-matery/"/>
     <id>http://shinon.gitee.io/2020/09/07/hexo-theme-matery/</id>
-    <published>2020-09-07T08:28:29.000Z</published>
-    <updated>2020-09-07T08:28:29.535Z</updated>
+    <published>2020-09-06T20:28:29.000Z</published>
+    <updated>2020-09-07T09:14:25.000Z</updated>
     
     
       
@@ -29,7 +29,8 @@
         
         
     <summary type="html">&lt;h1 id=&quot;hexo-theme-matery&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#hexo-theme-matery&quot;&gt;&lt;/a&gt; hexo-theme-matery&lt;/h1&gt;
-&lt;p&gt;&lt;a</summary>
+&lt;blockquote&gt;
+&lt;p&gt;这是一个采用</summary>
         
       
     
@@ -47,18 +48,18 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://shinon.gitee.io/2020/09/06/test/"/>
-    <id>http://shinon.gitee.io/2020/09/06/test/</id>
-    <published>2020-09-06T07:28:57.000Z</published>
-    <updated>2020-09-07T07:49:01.488Z</updated>
+    <title>Hello World</title>
+    <link href="http://shinon.gitee.io/2020/09/06/hello-world/"/>
+    <id>http://shinon.gitee.io/2020/09/06/hello-world/</id>
+    <published>2020-09-06T00:03:18.000Z</published>
+    <updated>2020-09-07T09:15:15.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;平时在写项目的时候经常要写一些 README 等等的说明性文件，&lt;a href=&quot;http://xn--4gq3wphx99e8xada057a2r3bo6vek4a7vc.md&quot;&gt;但是这样的文件一般都是.md&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
@@ -72,23 +73,27 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://shinon.gitee.io/2020/09/06/hello-world/"/>
-    <id>http://shinon.gitee.io/2020/09/06/hello-world/</id>
-    <published>2020-09-06T00:03:18.981Z</published>
-    <updated>2020-09-06T00:03:18.981Z</updated>
+    <title>test</title>
+    <link href="http://shinon.gitee.io/2020/09/06/test/"/>
+    <id>http://shinon.gitee.io/2020/09/06/test/</id>
+    <published>2020-09-05T19:28:57.000Z</published>
+    <updated>2020-09-07T09:16:06.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;平时在写项目的时候经常要写一些 README 等等的说明性文件，&lt;a href=&quot;http://xn--4gq3wphx99e8xada057a2r3bo6vek4a7vc.md&quot;&gt;但是这样的文件一般都是.md&lt;/a&gt;</summary>
         
       
     
     
     
+    <category term="Markdown" scheme="http://shinon.gitee.io/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="http://shinon.gitee.io/tags/Markdown/"/>
     
   </entry>
   
