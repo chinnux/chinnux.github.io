@@ -3,11 +3,11 @@
   <title>少年游</title>
   
   <subtitle>精于心 简于形</subtitle>
-  <link href="http://chinnux.top/atom.xml" rel="self"/>
+  <link href="https://0fnd2x.coding-pages.com/atom.xml" rel="self"/>
   
-  <link href="http://chinnux.top/"/>
+  <link href="https://0fnd2x.coding-pages.com/"/>
   <updated>2020-09-07T10:40:20.000Z</updated>
-  <id>http://chinnux.top/</id>
+  <id>https://0fnd2x.coding-pages.com/</id>
   
   <author>
     <name>chuang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo-theme-matery</title>
-    <link href="http://chinnux.top/2020/09/07/hexo-theme-matery/"/>
-    <id>http://chinnux.top/2020/09/07/hexo-theme-matery/</id>
+    <link href="https://0fnd2x.coding-pages.com/2020/09/07/hexo-theme-matery/"/>
+    <id>https://0fnd2x.coding-pages.com/2020/09/07/hexo-theme-matery/</id>
     <published>2020-09-06T20:28:29.000Z</published>
     <updated>2020-09-07T10:40:20.000Z</updated>
     
@@ -36,21 +36,21 @@
     
     
     
-    <category term="Hexo" scheme="http://chinnux.top/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://0fnd2x.coding-pages.com/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://chinnux.top/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://0fnd2x.coding-pages.com/tags/Hexo/"/>
     
-    <category term="主题" scheme="http://chinnux.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://0fnd2x.coding-pages.com/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="matery" scheme="http://chinnux.top/tags/matery/"/>
+    <category term="matery" scheme="https://0fnd2x.coding-pages.com/tags/matery/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://chinnux.top/2020/09/06/hello-world/"/>
-    <id>http://chinnux.top/2020/09/06/hello-world/</id>
+    <link href="https://0fnd2x.coding-pages.com/2020/09/06/hello-world/"/>
+    <id>https://0fnd2x.coding-pages.com/2020/09/06/hello-world/</id>
     <published>2020-09-06T00:03:18.981Z</published>
     <updated>2020-09-06T00:03:18.000Z</updated>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://chinnux.top/2020/09/06/test/"/>
-    <id>http://chinnux.top/2020/09/06/test/</id>
+    <link href="https://0fnd2x.coding-pages.com/2020/09/06/test/"/>
+    <id>https://0fnd2x.coding-pages.com/2020/09/06/test/</id>
     <published>2020-09-05T19:28:57.000Z</published>
     <updated>2020-09-07T09:16:06.000Z</updated>
     
@@ -86,10 +86,10 @@
     
     
     
-    <category term="Markdown" scheme="http://chinnux.top/categories/Markdown/"/>
+    <category term="Markdown" scheme="https://0fnd2x.coding-pages.com/categories/Markdown/"/>
     
     
-    <category term="Markdown" scheme="http://chinnux.top/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://0fnd2x.coding-pages.com/tags/Markdown/"/>
     
   </entry>
   
