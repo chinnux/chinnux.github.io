@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo-theme-matery | Schrödinger&#39;s Box</title>
+    <title>hexo-theme-matery | 少年游</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.1.1"><link rel="alternate" href="/atom.xml" title="Schrödinger's Box" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.1.1"><link rel="alternate" href="/atom.xml" title="少年游" type="application/atom+xml">
 </head>
 
 
@@ -42,7 +42,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Schrödinger&#39;s Box</span>
+                    <span class="logo-span">少年游</span>
                 </a>
             </div>
             
@@ -141,7 +141,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Schrödinger&#39;s Box</div>
+        <div class="logo-name">少年游</div>
         <div class="logo-desc">
             
             你并不讨厌，可是全无用处
@@ -375,7 +375,8 @@
 <p>当你看到这里的时候，应该已经有一个自己的 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 博客了。如果还没有的话，不妨使用 Hexo 和 <a target="_blank" rel="noopener" href="https://www.appinn.com/markdown/">Markdown</a> 来写博客和文章。</p>
 <p>点击 <a target="_blank" rel="noopener" href="https://codeload.github.com/blinkfox/hexo-theme-matery/zip/master">这里</a> 下载 <code>master</code> 分支的最新稳定版的代码，解压缩后，将 <code>hexo-theme-matery</code> 的文件夹复制到你 Hexo 的 <code>themes</code> 文件夹中即可。</p>
 <p>当然你也可以在你的 <code>themes</code> 文件夹下使用 <code>Git clone</code> 命令来下载:</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/blinkfox/hexo-theme-matery.git</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">git <span class="hljs-built_in">clone</span> https://github.com/blinkfox/hexo-theme-matery.git
+</code></pre>
 <h2 id="配置"><a class="markdownIt-Anchor" href="#配置"></a> 配置</h2>
 <h3 id="切换主题"><a class="markdownIt-Anchor" href="#切换主题"></a> 切换主题</h3>
 <p>修改 Hexo 根目录下的 <code>_config.yml</code> 的  <code>theme</code> 的值：<code>theme: hexo-theme-matery</code></p>
@@ -387,86 +388,242 @@
 </ul>
 <h3 id="新建分类-categories-页"><a class="markdownIt-Anchor" href="#新建分类-categories-页"></a> 新建分类 categories 页</h3>
 <p><code>categories</code> 页是用来展示所有分类的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>categories/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">"categories"</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">hexo new page <span class="hljs-string">"categories"</span>
+</code></pre>
 <p>编辑你刚刚新建的页面文件 <code>/source/categories/index.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">categories</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-30 17:25:30</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"categories"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"categories"</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">categories</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-30</span> <span class="hljs-number">17</span><span class="hljs-string">:25:30</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"categories"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"categories"</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h3 id="新建标签-tags-页"><a class="markdownIt-Anchor" href="#新建标签-tags-页"></a> 新建标签 tags 页</h3>
 <p><code>tags</code> 页是用来展示所有标签的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>tags/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">"tags"</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">hexo new page <span class="hljs-string">"tags"</span>
+</code></pre>
 <p>编辑你刚刚新建的页面文件 <code>/source/tags/index.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-30 18:23:38</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"tags"</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">tags</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-30</span> <span class="hljs-number">18</span><span class="hljs-string">:23:38</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"tags"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"tags"</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h3 id="新建关于我-about-页"><a class="markdownIt-Anchor" href="#新建关于我-about-页"></a> 新建关于我 about 页</h3>
 <p><code>about</code> 页是用来展示<strong>关于我和我的博客</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>about/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">"about"</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">hexo new page <span class="hljs-string">"about"</span>
+</code></pre>
 <p>编辑你刚刚新建的页面文件 <code>/source/about/index.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">about</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-30 17:25:30</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"about"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"about"</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">about</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-30</span> <span class="hljs-number">17</span><span class="hljs-string">:25:30</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"about"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"about"</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h3 id="新建留言板-contact-页可选的"><a class="markdownIt-Anchor" href="#新建留言板-contact-页可选的"></a> 新建留言板 contact 页（可选的）</h3>
 <p><code>contact</code> 页是用来展示<strong>留言板</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>contact/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">"contact"</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">hexo new page <span class="hljs-string">"contact"</span>
+</code></pre>
 <p>编辑你刚刚新建的页面文件 <code>/source/contact/index.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">contact</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-30 17:25:30</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"contact"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"contact"</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">contact</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-30</span> <span class="hljs-number">17</span><span class="hljs-string">:25:30</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"contact"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"contact"</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <blockquote>
 <p><strong>注</strong>：本留言板功能依赖于第三方评论系统，请<strong>激活</strong>你的评论系统才有效果。并且在主题的 <code>_config.yml</code> 文件中，第 <code>19</code> 至 <code>21</code> 行的“<strong>菜单</strong>”配置，取消关于留言板的注释即可。</p>
 </blockquote>
 <h3 id="新建友情链接-friends-页可选的"><a class="markdownIt-Anchor" href="#新建友情链接-friends-页可选的"></a> 新建友情链接 friends 页（可选的）</h3>
 <p><code>friends</code> 页是用来展示<strong>友情链接</strong>信息的页面，如果在你的博客 <code>source</code> 目录下还没有 <code>friends/index.md</code> 文件，那么你就需要新建一个，命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page <span class="string">"friends"</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">hexo new page <span class="hljs-string">"friends"</span>
+</code></pre>
 <p>编辑你刚刚新建的页面文件 <code>/source/friends/index.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">friends</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-12-12 21:25:30</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"friends"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"friends"</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">friends</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-12</span><span class="hljs-number">-12</span> <span class="hljs-number">21</span><span class="hljs-string">:25:30</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"friends"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"friends"</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <p>同时，在你的博客 <code>source</code> 目录下新建 <code>_data</code> 目录，在 <code>_data</code> 目录中新建 <code>friends.json</code> 文件，文件内容如下所示：</p>
-<figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">[{</span><br><span class="line">    <span class="attr">"avatar"</span>: <span class="string">"http://image.luokangyuan.com/1_qq_27922023.jpg"</span>,</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"码酱"</span>,</span><br><span class="line">    <span class="attr">"introduction"</span>: <span class="string">"我不是大佬，只是在追寻大佬的脚步"</span>,</span><br><span class="line">    <span class="attr">"url"</span>: <span class="string">"http://luokangyuan.com/"</span>,</span><br><span class="line">    <span class="attr">"title"</span>: <span class="string">"前去学习"</span></span><br><span class="line">}, {</span><br><span class="line">    <span class="attr">"avatar"</span>: <span class="string">"http://image.luokangyuan.com/4027734.jpeg"</span>,</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"闪烁之狐"</span>,</span><br><span class="line">    <span class="attr">"introduction"</span>: <span class="string">"编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬"</span>,</span><br><span class="line">    <span class="attr">"url"</span>: <span class="string">"https://blinkfox.github.io/"</span>,</span><br><span class="line">    <span class="attr">"title"</span>: <span class="string">"前去学习"</span></span><br><span class="line">}, {</span><br><span class="line">    <span class="attr">"avatar"</span>: <span class="string">"http://image.luokangyuan.com/avatar.jpg"</span>,</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"ja_rome"</span>,</span><br><span class="line">    <span class="attr">"introduction"</span>: <span class="string">"平凡的脚步也可以走出伟大的行程"</span>,</span><br><span class="line">    <span class="attr">"url"</span>: <span class="string">"https://me.csdn.net/jlh912008548"</span>,</span><br><span class="line">    <span class="attr">"title"</span>: <span class="string">"前去学习"</span></span><br><span class="line">}]</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="json">[{
+    <span class="hljs-attr">"avatar"</span>: <span class="hljs-string">"http://image.luokangyuan.com/1_qq_27922023.jpg"</span>,
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"码酱"</span>,
+    <span class="hljs-attr">"introduction"</span>: <span class="hljs-string">"我不是大佬，只是在追寻大佬的脚步"</span>,
+    <span class="hljs-attr">"url"</span>: <span class="hljs-string">"http://luokangyuan.com/"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"前去学习"</span>
+}, {
+    <span class="hljs-attr">"avatar"</span>: <span class="hljs-string">"http://image.luokangyuan.com/4027734.jpeg"</span>,
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"闪烁之狐"</span>,
+    <span class="hljs-attr">"introduction"</span>: <span class="hljs-string">"编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬"</span>,
+    <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://blinkfox.github.io/"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"前去学习"</span>
+}, {
+    <span class="hljs-attr">"avatar"</span>: <span class="hljs-string">"http://image.luokangyuan.com/avatar.jpg"</span>,
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"ja_rome"</span>,
+    <span class="hljs-attr">"introduction"</span>: <span class="hljs-string">"平凡的脚步也可以走出伟大的行程"</span>,
+    <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://me.csdn.net/jlh912008548"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"前去学习"</span>
+}]
+</code></pre>
 <h3 id="新建-404-页"><a class="markdownIt-Anchor" href="#新建-404-页"></a> 新建 404 页</h3>
 <p>如果在你的博客 <code>source</code> 目录下还没有 <code>404.md</code> 文件，那么你就需要新建一个</p>
 <p>编辑你刚刚新建的页面文件 <code>/source/404.md</code>，至少需要以下内容：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="number">404</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-30 17:25:30</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">"404"</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">"404"</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">"Oops～，我崩溃了！找不到你想要的页面 :("</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-number">404</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-30</span> <span class="hljs-number">17</span><span class="hljs-string">:25:30</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">"404"</span>
+<span class="hljs-attr">layout:</span> <span class="hljs-string">"404"</span>
+<span class="hljs-attr">description:</span> <span class="hljs-string">"Oops～，我崩溃了！找不到你想要的页面 :("</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h3 id="菜单导航配置"><a class="markdownIt-Anchor" href="#菜单导航配置"></a> 菜单导航配置</h3>
 <h4 id="配置基本菜单导航的名称-路径url和图标icon"><a class="markdownIt-Anchor" href="#配置基本菜单导航的名称-路径url和图标icon"></a> 配置基本菜单导航的名称、路径url和图标icon.</h4>
 <p>1.菜单导航名称可以是中文也可以是英文(如：<code>Index</code>或<code>主页</code>)<br>
 2.图标icon 可以在<a target="_blank" rel="noopener" href="https://fontawesome.com/icons">Font Awesome</a> 中查找</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">Index:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">Tags:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/tags</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">Categories:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/categories</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-bookmark</span></span><br><span class="line">  <span class="attr">Archives:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/archives</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">About:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/about</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-user-circle</span></span><br><span class="line">  <span class="attr">Friends:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/friends</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-address-book</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">menu:</span>
+  <span class="hljs-attr">Index:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-home</span>
+  <span class="hljs-attr">Tags:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/tags</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-tags</span>
+  <span class="hljs-attr">Categories:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/categories</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-bookmark</span>
+  <span class="hljs-attr">Archives:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/archives</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-archive</span>
+  <span class="hljs-attr">About:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/about</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-user-circle</span>
+  <span class="hljs-attr">Friends:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/friends</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-address-book</span>
+</code></pre>
 <h4 id="二级菜单配置方法"><a class="markdownIt-Anchor" href="#二级菜单配置方法"></a> 二级菜单配置方法</h4>
 <p>如果你需要二级菜单则可以在原基本菜单导航的基础上如下操作<br>
 1.在需要添加二级菜单的一级菜单下添加<code>children</code>关键字(如:<code>About</code>菜单下添加<code>children</code>)<br>
 2.在<code>children</code>下创建二级菜单的 名称name,路径url和图标icon.<br>
 3.注意每个二级菜单模块前要加 <code>-</code>.<br>
 4.注意缩进格式</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="attr">Index:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="attr">Tags:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/tags</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="attr">Categories:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/categories</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-bookmark</span></span><br><span class="line">  <span class="attr">Archives:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/archives</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="attr">About:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/about</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-user-circle-o</span></span><br><span class="line">  <span class="attr">Friends:</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">/friends</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-address-book</span></span><br><span class="line">  <span class="attr">Medias:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-list</span></span><br><span class="line">    <span class="attr">children:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Musics</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/musics</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-music</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Movies</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/movies</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-film</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Books</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/books</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-book</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Galleries</span></span><br><span class="line">        <span class="attr">url:</span> <span class="string">/galleries</span></span><br><span class="line">        <span class="attr">icon:</span> <span class="string">fas</span> <span class="string">fa-image</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">menu:</span>
+  <span class="hljs-attr">Index:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-home</span>
+  <span class="hljs-attr">Tags:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/tags</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-tags</span>
+  <span class="hljs-attr">Categories:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/categories</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-bookmark</span>
+  <span class="hljs-attr">Archives:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/archives</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-archive</span>
+  <span class="hljs-attr">About:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/about</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-user-circle-o</span>
+  <span class="hljs-attr">Friends:</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">/friends</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-address-book</span>
+  <span class="hljs-attr">Medias:</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-list</span>
+    <span class="hljs-attr">children:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Musics</span>
+        <span class="hljs-attr">url:</span> <span class="hljs-string">/musics</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-music</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Movies</span>
+        <span class="hljs-attr">url:</span> <span class="hljs-string">/movies</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-film</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Books</span>
+        <span class="hljs-attr">url:</span> <span class="hljs-string">/books</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-book</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Galleries</span>
+        <span class="hljs-attr">url:</span> <span class="hljs-string">/galleries</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-image</span>
+</code></pre>
 <p>执行 <code>hexo clean &amp;&amp; hexo g</code> 重新生成博客文件，然后就可以在文章中对应位置看到你用<code>emoji</code>语法写的表情了。</p>
 <h3 id="代码高亮"><a class="markdownIt-Anchor" href="#代码高亮"></a> 代码高亮</h3>
 <p>由于 Hexo 自带的代码高亮主题显示不好看，所以主题中使用到了 <a target="_blank" rel="noopener" href="https://github.com/ele828/hexo-prism-plugin">hexo-prism-plugin</a> 的 Hexo 插件来做代码高亮，安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -S hexo-prism-plugin</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm i -S hexo-prism-plugin
+</code></pre>
 <p>然后，修改 Hexo 根目录下 <code>_config.yml</code> 文件中 <code>highlight.enable</code> 的值为 <code>false</code>，并新增 <code>prism</code> 插件相关的配置，主要配置如下：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="attr">prism_plugin:</span></span><br><span class="line">  <span class="attr">mode:</span> <span class="string">'preprocess'</span>    <span class="comment"># realtime/preprocess</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">'tomorrow'</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">false</span>    <span class="comment"># default false</span></span><br><span class="line">  <span class="attr">custom_css:</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">highlight:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">false</span>
+
+<span class="hljs-attr">prism_plugin:</span>
+  <span class="hljs-attr">mode:</span> <span class="hljs-string">'preprocess'</span>    <span class="hljs-comment"># realtime/preprocess</span>
+  <span class="hljs-attr">theme:</span> <span class="hljs-string">'tomorrow'</span>
+  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">false</span>    <span class="hljs-comment"># default false</span>
+  <span class="hljs-attr">custom_css:</span>
+</code></pre>
 <h3 id="搜索"><a class="markdownIt-Anchor" href="#搜索"></a> 搜索</h3>
 <p>本主题中还使用到了 <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search">hexo-generator-search</a> 的 Hexo 插件来做内容搜索，安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm install hexo-generator-search --save
+</code></pre>
 <p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">search:</span>
+  <span class="hljs-attr">path:</span> <span class="hljs-string">search.xml</span>
+  <span class="hljs-attr">field:</span> <span class="hljs-string">post</span>
+</code></pre>
 <h3 id="中文链接转拼音建议安装"><a class="markdownIt-Anchor" href="#中文链接转拼音建议安装"></a> 中文链接转拼音（建议安装）</h3>
 <p>如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 <code>SEO</code>，且 <code>gitment</code> 评论对中文链接也不支持。我们可以用 <a target="_blank" rel="noopener" href="https://github.com/viko16/hexo-permalink-pinyin">hexo-permalink-pinyin</a> Hexo 插件使在生成文章时生成中文拼音的永久链接。</p>
 <p>安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-permalink-pinyin --save</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm i hexo-permalink-pinyin --save
+</code></pre>
 <p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink_pinyin:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">separator:</span> <span class="string">'-'</span> <span class="comment"># default: '-'</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">permalink_pinyin:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">separator:</span> <span class="hljs-string">'-'</span> <span class="hljs-comment"># default: '-'</span>
+</code></pre>
 <blockquote>
 <p><strong>注</strong>：除了此插件外，<a target="_blank" rel="noopener" href="https://github.com/rozbo/hexo-abbrlink">hexo-abbrlink</a> 插件也可以生成非中文的链接。</p>
 </blockquote>
 <h3 id="文章字数统计插件建议安装"><a class="markdownIt-Anchor" href="#文章字数统计插件建议安装"></a> 文章字数统计插件（建议安装）</h3>
 <p>如果你想要在文章中显示文章字数、阅读时长信息，可以安装 <a target="_blank" rel="noopener" href="https://github.com/willin/hexo-wordcount">hexo-wordcount</a>插件。</p>
 <p>安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save hexo-wordcount</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm i --save hexo-wordcount
+</code></pre>
 <p>然后只需在本主题下的 <code>_config.yml</code> 文件中，将各个文章字数相关的配置激活即可：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">postInfo:</span></span><br><span class="line">  <span class="attr">date:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">update:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">wordCount:</span> <span class="literal">false</span> <span class="comment"># 设置文章字数统计为 true.</span></span><br><span class="line">  <span class="attr">totalCount:</span> <span class="literal">false</span> <span class="comment"># 设置站点文章总字数统计为 true.</span></span><br><span class="line">  <span class="attr">min2read:</span> <span class="literal">false</span> <span class="comment"># 阅读时长.</span></span><br><span class="line">  <span class="attr">readCount:</span> <span class="literal">false</span> <span class="comment"># 阅读次数.</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">postInfo:</span>
+  <span class="hljs-attr">date:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">update:</span> <span class="hljs-literal">false</span>
+  <span class="hljs-attr">wordCount:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 设置文章字数统计为 true.</span>
+  <span class="hljs-attr">totalCount:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 设置站点文章总字数统计为 true.</span>
+  <span class="hljs-attr">min2read:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 阅读时长.</span>
+  <span class="hljs-attr">readCount:</span> <span class="hljs-literal">false</span> <span class="hljs-comment"># 阅读次数.</span>
+</code></pre>
 <h3 id="添加emoji表情支持可选的"><a class="markdownIt-Anchor" href="#添加emoji表情支持可选的"></a> 添加emoji表情支持（可选的）</h3>
 <p>本主题新增了对<code>emoji</code>表情的支持，使用到了 <a target="_blank" rel="noopener" href="https://npm.taobao.org/package/hexo-filter-github-emojis">hexo-filter-github-emojis</a> 的 Hexo 插件来支持 <code>emoji</code>表情的生成，把对应的<code>markdown emoji</code>语法（<code>::</code>,例如：<code>:smile:</code>）转变成会跳跃的<code>emoji</code>表情，安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-filter-github-emojis --save</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm install hexo-filter-github-emojis --save
+</code></pre>
 <p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">githubEmojis:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">className:</span> <span class="string">github-emoji</span></span><br><span class="line">  <span class="attr">inject:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">styles:</span></span><br><span class="line">  <span class="attr">customEmojis:</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">githubEmojis:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">className:</span> <span class="hljs-string">github-emoji</span>
+  <span class="hljs-attr">inject:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">styles:</span>
+  <span class="hljs-attr">customEmojis:</span>
+</code></pre>
 <h3 id="添加-rss-订阅支持可选的"><a class="markdownIt-Anchor" href="#添加-rss-订阅支持可选的"></a> 添加 RSS 订阅支持（可选的）</h3>
 <p>本主题中还使用到了 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 的 Hexo 插件来做 <code>RSS</code>，安装命令如下：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="bash">npm install hexo-generator-feed --save
+</code></pre>
 <p>在 Hexo 根目录下的 <code>_config.yml</code> 文件中，新增以下的配置项：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">' '</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-attr">feed:</span>
+  <span class="hljs-attr">type:</span> <span class="hljs-string">atom</span>
+  <span class="hljs-attr">path:</span> <span class="hljs-string">atom.xml</span>
+  <span class="hljs-attr">limit:</span> <span class="hljs-number">20</span>
+  <span class="hljs-attr">hub:</span>
+  <span class="hljs-attr">content:</span>
+  <span class="hljs-attr">content_limit:</span> <span class="hljs-number">140</span>
+  <span class="hljs-attr">content_limit_delim:</span> <span class="hljs-string">' '</span>
+  <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span>
+</code></pre>
 <p>执行 <code>hexo clean &amp;&amp; hexo g</code> 重新生成博客文件，然后在 <code>public</code> 文件夹中即可看到 <code>atom.xml</code> 文件，说明你已经安装成功了。</p>
 <h3 id="添加-daovoice-在线聊天功能可选的"><a class="markdownIt-Anchor" href="#添加-daovoice-在线聊天功能可选的"></a> 添加 <a target="_blank" rel="noopener" href="http://www.daovoice.io/">DaoVoice</a> 在线聊天功能（可选的）</h3>
 <p>前往 <a target="_blank" rel="noopener" href="http://www.daovoice.io/">DaoVoice</a> 官网注册并且获取 <code>app_id</code>，并将 <code>app_id</code> 填入主题的 <code>_config.yml</code> 文件中。</p>
@@ -476,7 +633,12 @@
 <p>页脚信息可能需要做定制化修改，而且它不便于做成配置信息，所以可能需要你自己去再修改和加工。修改的地方在主题文件的 <code>/layout/_partial/footer.ejs</code> 文件中，包括站点、使用的主题、访问量等。</p>
 <h3 id="修改社交链接"><a class="markdownIt-Anchor" href="#修改社交链接"></a> 修改社交链接</h3>
 <p>在主题的 <code>_config.yml</code> 文件中，默认支持 <code>QQ</code>、<code>GitHub</code> 和邮箱等的配置，你可以在主题文件的 <code>/layout/_partial/social-link.ejs</code> 文件中，新增、修改你需要的社交链接地址，增加链接可参考如下代码：</p>
-<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">theme.socialLink.github</span>) { %&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&lt;%= theme.socialLink.github %&gt;"</span> <span class="attr">class</span>=<span class="string">"tooltipped"</span> <span class="attr">target</span>=<span class="string">"_blank"</span> <span class="attr">data-tooltip</span>=<span class="string">"访问我的GitHub"</span> <span class="attr">data-position</span>=<span class="string">"top"</span> <span class="attr">data-delay</span>=<span class="string">"50"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fab fa-github"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> } %&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">%</span> <span class="hljs-attr">if</span> (<span class="hljs-attr">theme.socialLink.github</span>) { %&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"&lt;%= theme.socialLink.github %&gt;"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"tooltipped"</span> <span class="hljs-attr">target</span>=<span class="hljs-string">"_blank"</span> <span class="hljs-attr">data-tooltip</span>=<span class="hljs-string">"访问我的GitHub"</span> <span class="hljs-attr">data-position</span>=<span class="hljs-string">"top"</span> <span class="hljs-attr">data-delay</span>=<span class="hljs-string">"50"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fab fa-github"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">%</span> } %&gt;</span>
+</code></pre>
 <p>其中，社交图标（如：<code>fa-github</code>）你可以在 <a target="_blank" rel="noopener" href="https://fontawesome.com/icons">Font Awesome</a> 中搜索找到。以下是常用社交图标的标识，供你参考：</p>
 <ul>
 <li>Facebook: <code>fab fa-facebook</code></li>
@@ -498,7 +660,24 @@
 <p>在主题文件的 <code>source/medias/reward</code> 文件中，你可以替换成你的的微信和支付宝的打赏二维码图片。</p>
 <h3 id="配置音乐播放器可选的"><a class="markdownIt-Anchor" href="#配置音乐播放器可选的"></a> 配置音乐播放器（可选的）</h3>
 <p>要支持音乐播放，在主题的 <code>_config.yml</code> 配置文件中激活music配置即可：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 是否在首页显示音乐</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">title:</span>     	    <span class="comment"># 非吸底模式有效</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">show:</span> <span class="string">听听音乐</span></span><br><span class="line">  <span class="attr">server:</span> <span class="string">netease</span>   <span class="comment"># require music platform: netease, tencent, kugou, xiami, baidu</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">playlist</span>    <span class="comment"># require song, playlist, album, search, artist</span></span><br><span class="line">  <span class="attr">id:</span> <span class="number">503838841</span>     <span class="comment"># require song id / playlist id / album id / search keyword</span></span><br><span class="line">  <span class="attr">fixed:</span> <span class="literal">false</span>      <span class="comment"># 开启吸底模式</span></span><br><span class="line">  <span class="attr">autoplay:</span> <span class="literal">false</span>   <span class="comment"># 是否自动播放</span></span><br><span class="line">  <span class="attr">theme:</span> <span class="string">'#42b983'</span></span><br><span class="line">  <span class="attr">loop:</span> <span class="string">'all'</span>       <span class="comment"># 音频循环播放, 可选值: 'all', 'one', 'none'</span></span><br><span class="line">  <span class="attr">order:</span> <span class="string">'random'</span>   <span class="comment"># 音频循环顺序, 可选值: 'list', 'random'</span></span><br><span class="line">  <span class="attr">preload:</span> <span class="string">'auto'</span>   <span class="comment"># 预加载，可选值: 'none', 'metadata', 'auto'</span></span><br><span class="line">  <span class="attr">volume:</span> <span class="number">0.7</span>       <span class="comment"># 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</span></span><br><span class="line">  <span class="attr">listFolded:</span> <span class="literal">true</span>  <span class="comment"># 列表默认折叠</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-comment"># 是否在首页显示音乐</span>
+<span class="hljs-attr">music:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">title:</span>     	    <span class="hljs-comment"># 非吸底模式有效</span>
+    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+    <span class="hljs-attr">show:</span> <span class="hljs-string">听听音乐</span>
+  <span class="hljs-attr">server:</span> <span class="hljs-string">netease</span>   <span class="hljs-comment"># require music platform: netease, tencent, kugou, xiami, baidu</span>
+  <span class="hljs-attr">type:</span> <span class="hljs-string">playlist</span>    <span class="hljs-comment"># require song, playlist, album, search, artist</span>
+  <span class="hljs-attr">id:</span> <span class="hljs-number">503838841</span>     <span class="hljs-comment"># require song id / playlist id / album id / search keyword</span>
+  <span class="hljs-attr">fixed:</span> <span class="hljs-literal">false</span>      <span class="hljs-comment"># 开启吸底模式</span>
+  <span class="hljs-attr">autoplay:</span> <span class="hljs-literal">false</span>   <span class="hljs-comment"># 是否自动播放</span>
+  <span class="hljs-attr">theme:</span> <span class="hljs-string">'#42b983'</span>
+  <span class="hljs-attr">loop:</span> <span class="hljs-string">'all'</span>       <span class="hljs-comment"># 音频循环播放, 可选值: 'all', 'one', 'none'</span>
+  <span class="hljs-attr">order:</span> <span class="hljs-string">'random'</span>   <span class="hljs-comment"># 音频循环顺序, 可选值: 'list', 'random'</span>
+  <span class="hljs-attr">preload:</span> <span class="hljs-string">'auto'</span>   <span class="hljs-comment"># 预加载，可选值: 'none', 'metadata', 'auto'</span>
+  <span class="hljs-attr">volume:</span> <span class="hljs-number">0.7</span>       <span class="hljs-comment"># 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</span>
+  <span class="hljs-attr">listFolded:</span> <span class="hljs-literal">true</span>  <span class="hljs-comment"># 列表默认折叠</span>
+</code></pre>
 <blockquote>
 <p><code>server</code>可选<code>netease</code>（网易云音乐），<code>tencent</code>（QQ音乐），<code>kugou</code>（酷狗音乐），<code>xiami</code>（虾米音乐），</p>
 <p><code>baidu</code>（百度音乐）。</p>
@@ -606,9 +785,30 @@
 </blockquote>
 <p>以下为文章的 <code>Front-matter</code> 示例。</p>
 <h3 id="最简示例"><a class="markdownIt-Anchor" href="#最简示例"></a> 最简示例</h3>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">typora-vue-theme主题介绍</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-07 09:25:00</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">typora-vue-theme主题介绍</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-07</span> <span class="hljs-number">09</span><span class="hljs-string">:25:00</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h3 id="最全示例"><a class="markdownIt-Anchor" href="#最全示例"></a> 最全示例</h3>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">typora-vue-theme主题介绍</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018-09-07 09:25:00</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">赵奇</span></span><br><span class="line"><span class="attr">img:</span> <span class="string">/source/images/xxx.jpg</span></span><br><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">cover:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">coverImg:</span> <span class="string">/images/1.jpg</span></span><br><span class="line"><span class="attr">password:</span> <span class="string">8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">mathjax:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">summary:</span> <span class="string">这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">Markdown</span></span><br><span class="line"><span class="attr">tags:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">Typora</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">Markdown</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">typora-vue-theme主题介绍</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-09</span><span class="hljs-number">-07</span> <span class="hljs-number">09</span><span class="hljs-string">:25:00</span>
+<span class="hljs-attr">author:</span> <span class="hljs-string">赵奇</span>
+<span class="hljs-attr">img:</span> <span class="hljs-string">/source/images/xxx.jpg</span>
+<span class="hljs-attr">top:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">cover:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">coverImg:</span> <span class="hljs-string">/images/1.jpg</span>
+<span class="hljs-attr">password:</span> <span class="hljs-string">8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92</span>
+<span class="hljs-attr">toc:</span> <span class="hljs-literal">false</span>
+<span class="hljs-attr">mathjax:</span> <span class="hljs-literal">false</span>
+<span class="hljs-attr">summary:</span> <span class="hljs-string">这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</span>
+<span class="hljs-attr">categories:</span> <span class="hljs-string">Markdown</span>
+<span class="hljs-attr">tags:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">Typora</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-string">Markdown</span>
+<span class="hljs-meta">---</span>
+</code></pre>
 <h2 id="效果截图"><a class="markdownIt-Anchor" href="#效果截图"></a> 效果截图</h2>
 <p><img src="http://static.blinkfox.com/matery-20181202-1.png" alt="首页"></p>
 <p><img src="http://static.blinkfox.com/matery-20181202-2.png" alt="首页推荐文章"></p>
@@ -640,10 +840,23 @@
 <p><strong>我认为个人博客应该都有自己的风格和特色</strong>。如果本主题中的诸多功能和主题色彩你不满意，可以在主题中自定义修改，很多更自由的功能和细节点的修改难以在主题的 <code>_config.yml</code> 中完成，需要修改源代码才来完成。以下列出了可能对你有用的地方：</p>
 <h3 id="修改主题颜色"><a class="markdownIt-Anchor" href="#修改主题颜色"></a> 修改主题颜色</h3>
 <p>在主题文件的 <code>/source/css/matery.css</code> 文件中，搜索 <code>.bg-color</code> 来修改背景颜色：</p>
-<figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */</span></span><br><span class="line"><span class="selector-class">.bg-color</span> {</span><br><span class="line">    <span class="attribute">background-image</span>: <span class="built_in">linear-gradient</span>(to right, #<span class="number">4</span>cbf30 <span class="number">0%</span>, #<span class="number">0</span>f9d58 <span class="number">100%</span>);</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> rainbow {</span><br><span class="line">   <span class="comment">/* 动态切换背景颜色. */</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">@keyframes</span> rainbow {</span><br><span class="line">    <span class="comment">/* 动态切换背景颜色. */</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="css"><span class="hljs-comment">/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */</span>
+<span class="hljs-selector-class">.bg-color</span> {
+    <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">linear-gradient</span>(to right, #<span class="hljs-number">4</span>cbf30 <span class="hljs-number">0%</span>, #<span class="hljs-number">0</span>f9d58 <span class="hljs-number">100%</span>);
+}
+
+<span class="hljs-keyword">@-webkit-keyframes</span> rainbow {
+   <span class="hljs-comment">/* 动态切换背景颜色. */</span>
+}
+
+<span class="hljs-keyword">@keyframes</span> rainbow {
+    <span class="hljs-comment">/* 动态切换背景颜色. */</span>
+}
+</code></pre>
 <h3 id="修改-banner-图和文章特色图"><a class="markdownIt-Anchor" href="#修改-banner-图和文章特色图"></a> 修改 banner 图和文章特色图</h3>
 <p>你可以直接在 <code>/source/medias/banner</code> 文件夹中更换你喜欢的 <code>banner</code> 图片，主题代码中是每天动态切换一张，只需 <code>7</code> 张即可。如果你会 <code>JavaScript</code> 代码，可以修改成你自己喜欢切换逻辑，如：随机切换等，<code>banner</code> 切换的代码位置在 <code>/layout/_partial/bg-cover-content.ejs</code> 文件的 <code>&lt;script&gt;&lt;/script&gt;</code> 代码中：</p>
-<figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'.bg-cover'</span>).css(<span class="string">'background-image'</span>, <span class="string">'url(/medias/banner/'</span> + <span class="keyword">new</span> <span class="built_in">Date</span>().getDay() + <span class="string">'.jpg)'</span>);</span><br></pre></td></tr></tbody></table></figure>
+<pre class="highlight"><code class="javascript">$(<span class="hljs-string">'.bg-cover'</span>).css(<span class="hljs-string">'background-image'</span>, <span class="hljs-string">'url(/medias/banner/'</span> + <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>().getDay() + <span class="hljs-string">'.jpg)'</span>);
+</code></pre>
 <p>在 <code>/source/medias/featureimages</code> 文件夹中默认有 24 张特色图片，你可以再增加或者减少，并需要在 <code>_config.yml</code> 做同步修改。</p>
 <h2 id="版本记录"><a class="markdownIt-Anchor" href="#版本记录"></a> 版本记录</h2>
 <ul>
@@ -793,7 +1006,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">shinzon</a>
+                    <a href="/about" rel="external nofollow noreferrer">chuang</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -803,7 +1016,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://shinon.gitee.io/2020/09/07/hexo-theme-matery/">http://shinon.gitee.io/2020/09/07/hexo-theme-matery/</a>
+                    <a href="http://chinnux.top/2020/09/07/hexo-theme-matery/">http://chinnux.top/2020/09/07/hexo-theme-matery/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -816,7 +1029,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">shinzon</a>
+                    <a href="/about" target="_blank">chuang</a>
                     !
                 </span>
             </div>
@@ -871,132 +1084,6 @@
 
                 </div>
             </div>
-            
-                <style>
-    #reward {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #reward .reward-link {
-        font-size: 1.4rem;
-        line-height: 38px;
-    }
-
-    #reward .btn-floating:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    #rewardModal {
-        width: 320px;
-        height: 350px;
-    }
-
-    #rewardModal .reward-title {
-        margin: 15px auto;
-        padding-bottom: 5px;
-    }
-
-    #rewardModal .modal-content {
-        padding: 10px;
-    }
-
-    #rewardModal .close {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 1.3rem;
-        line-height: 20px;
-        cursor: pointer;
-    }
-
-    #rewardModal .close:hover {
-        color: #ef5350;
-        transform: scale(1.3);
-        -moz-transform:scale(1.3);
-        -webkit-transform:scale(1.3);
-        -o-transform:scale(1.3);
-    }
-
-    #rewardModal .reward-tabs {
-        margin: 0 auto;
-        width: 210px;
-    }
-
-    .reward-tabs .tabs {
-        height: 38px;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-
-    .reward-content ul {
-        padding-left: 0 !important;
-    }
-
-    .reward-tabs .tabs .tab {
-        height: 38px;
-        line-height: 38px;
-    }
-
-    .reward-tabs .tab a {
-        color: #fff;
-        background-color: #ccc;
-    }
-
-    .reward-tabs .tab a:hover {
-        background-color: #ccc;
-        color: #fff;
-    }
-
-    .reward-tabs .wechat-tab .active {
-        color: #fff !important;
-        background-color: #22AB38 !important;
-    }
-
-    .reward-tabs .alipay-tab .active {
-        color: #fff !important;
-        background-color: #019FE8 !important;
-    }
-
-    .reward-tabs .reward-img {
-        width: 210px;
-        height: 210px;
-    }
-</style>
-
-<div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
-
-    <!-- Modal Structure -->
-    <div id="rewardModal" class="modal">
-        <div class="modal-content">
-            <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
-            <div class="reward-content">
-                <div class="reward-tabs">
-                    <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
-                    </ul>
-                    <div id="alipay">
-                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
-                    </div>
-                    <div id="wechat">
-                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    $(function () {
-        $('.tabs').tabs();
-    });
-</script>
-
             
         </div>
     </div>
@@ -1373,23 +1460,11 @@ Material Design 设计
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Hexo/" class="post-category">
-                                    Hexo
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            chuang
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1452,7 +1527,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         display: none;
         
         font-size: 15px;
-        color: #42b983;
+        color: 42b983;
     }
 
     
@@ -1472,10 +1547,10 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="3673841"
                    fixed='true'
                    autoplay='false'
-                   theme='#42b983'
+                   theme='42b983'
                    loop='all'
                    order='random'
                    preload='auto'
@@ -1494,7 +1569,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="/about" target="_blank">shinzon</a>
+            <a href="/about" target="_blank">chuang</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
@@ -1586,6 +1661,10 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     </a>
 
 
+
+    <a href="https://weibo.com/shinzon" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/shinzon" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
 
 
 

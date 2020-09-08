@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Schrödinger&#39;s Box</title>
+  <title>少年游</title>
   
   <subtitle>精于心 简于形</subtitle>
-  <link href="http://shinon.gitee.io/atom.xml" rel="self"/>
+  <link href="http://chinnux.top/atom.xml" rel="self"/>
   
-  <link href="http://shinon.gitee.io/"/>
-  <updated>2020-09-07T09:14:25.000Z</updated>
-  <id>http://shinon.gitee.io/</id>
+  <link href="http://chinnux.top/"/>
+  <updated>2020-09-07T10:40:20.000Z</updated>
+  <id>http://chinnux.top/</id>
   
   <author>
-    <name>shinzon</name>
+    <name>chuang</name>
     
   </author>
   
@@ -18,10 +18,10 @@
   
   <entry>
     <title>hexo-theme-matery</title>
-    <link href="http://shinon.gitee.io/2020/09/07/hexo-theme-matery/"/>
-    <id>http://shinon.gitee.io/2020/09/07/hexo-theme-matery/</id>
+    <link href="http://chinnux.top/2020/09/07/hexo-theme-matery/"/>
+    <id>http://chinnux.top/2020/09/07/hexo-theme-matery/</id>
     <published>2020-09-06T20:28:29.000Z</published>
-    <updated>2020-09-07T09:14:25.000Z</updated>
+    <updated>2020-09-07T10:40:20.000Z</updated>
     
     
       
@@ -36,23 +36,23 @@
     
     
     
-    <category term="Hexo" scheme="http://shinon.gitee.io/categories/Hexo/"/>
+    <category term="Hexo" scheme="http://chinnux.top/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://shinon.gitee.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="http://chinnux.top/tags/Hexo/"/>
     
-    <category term="主题" scheme="http://shinon.gitee.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="http://chinnux.top/tags/%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="matery" scheme="http://shinon.gitee.io/tags/matery/"/>
+    <category term="matery" scheme="http://chinnux.top/tags/matery/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://shinon.gitee.io/2020/09/06/hello-world/"/>
-    <id>http://shinon.gitee.io/2020/09/06/hello-world/</id>
-    <published>2020-09-06T00:03:18.000Z</published>
-    <updated>2020-09-07T09:15:15.000Z</updated>
+    <link href="http://chinnux.top/2020/09/06/hello-world/"/>
+    <id>http://chinnux.top/2020/09/06/hello-world/</id>
+    <published>2020-09-06T00:03:18.981Z</published>
+    <updated>2020-09-06T00:03:18.000Z</updated>
     
     
       
@@ -65,17 +65,13 @@
     
     
     
-    <category term="Hexo" scheme="http://shinon.gitee.io/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="http://shinon.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>test</title>
-    <link href="http://shinon.gitee.io/2020/09/06/test/"/>
-    <id>http://shinon.gitee.io/2020/09/06/test/</id>
+    <link href="http://chinnux.top/2020/09/06/test/"/>
+    <id>http://chinnux.top/2020/09/06/test/</id>
     <published>2020-09-05T19:28:57.000Z</published>
     <updated>2020-09-07T09:16:06.000Z</updated>
     
@@ -90,10 +86,10 @@
     
     
     
-    <category term="Markdown" scheme="http://shinon.gitee.io/categories/Markdown/"/>
+    <category term="Markdown" scheme="http://chinnux.top/categories/Markdown/"/>
     
     
-    <category term="Markdown" scheme="http://shinon.gitee.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="http://chinnux.top/tags/Markdown/"/>
     
   </entry>
   
