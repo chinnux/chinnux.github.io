@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>少年游</title>
+  
+  <subtitle>精于心 简于形</subtitle>
+  <link href="https://chinnux.top/atom.xml" rel="self"/>
+  
+  <link href="https://chinnux.top/"/>
+  <updated>2020-09-09T13:04:36.000Z</updated>
+  <id>https://chinnux.top/</id>
+  
+  <author>
+    <name>chuang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://chinnux.top/2020/10/14/hello-world/"/>
+    <id>https://chinnux.top/2020/10/14/hello-world/</id>
+    <published>2020-10-14T04:33:46.414Z</published>
+    <updated>2020-09-09T13:04:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-theme-matery</title>
+    <link href="https://chinnux.top/2020/09/07/hexo-theme-matery/"/>
+    <id>https://chinnux.top/2020/09/07/hexo-theme-matery/</id>
+    <published>2020-09-06T20:28:29.000Z</published>
+    <updated>2020-09-07T10:40:20.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-theme-matery&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#hexo-theme-matery&quot;&gt;&lt;/a&gt; hexo-theme-matery&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个采用</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://chinnux.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://chinnux.top/tags/Hexo/"/>
+    
+    <category term="主题" scheme="https://chinnux.top/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="matery" scheme="https://chinnux.top/tags/matery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://chinnux.top/2020/09/06/test/"/>
+    <id>https://chinnux.top/2020/09/06/test/</id>
+    <published>2020-09-05T19:28:57.000Z</published>
+    <updated>2020-09-07T09:16:06.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;平时在写项目的时候经常要写一些 README 等等的说明性文件，&lt;a href=&quot;http://xn--4gq3wphx99e8xada057a2r3bo6vek4a7vc.md&quot;&gt;但是这样的文件一般都是.md&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="https://chinnux.top/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="https://chinnux.top/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
